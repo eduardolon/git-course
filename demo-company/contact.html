@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - TechVenture Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">TechVenture Solutions</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- TODO: Add link to services page -->
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="bg-primary text-white py-5">
+        <div class="container">
+            <h1 class="display-4">Contact Us</h1>
+            <p class="lead">Get in touch with our team</p>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container my-5">
+        <div class="row">
+            <!-- Contact Form -->
+            <div class="col-lg-8 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title mb-4">Send Us a Message</h3>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="firstName" class="form-label">First Name</label>
+                                    <input type="text" class="form-control" id="firstName" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="lastName" class="form-label">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="company" class="form-label">Company Name</label>
+                                <input type="text" class="form-control" id="company">
+                            </div>
+                            <!-- TODO: Add phone number field -->
+                            
+                            <div class="mb-3">
+                                <label for="service" class="form-label">Service Interested In</label>
+                                <select class="form-select" id="service">
+                                    <option selected>Choose...</option>
+                                    <option value="cloud">Cloud Solutions</option>
+                                    <option value="software">Custom Software Development</option>
+                                    <option value="consulting">IT Consulting</option>
+                                    <option value="security">Cybersecurity</option>
+                                    <option value="analytics">Data Analytics</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Contact Information</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <strong>Email:</strong><br>
+                                info@techventure.com
+                            </li>
+                            <li class="mb-3">
+                                <strong>Phone:</strong><br>
+                                +1 (555) 123-4567
+                            </li>
+                            <li class="mb-3">
+                                <strong>Address:</strong><br>
+                                123 Tech Boulevard<br>
+                                San Francisco, CA 94103
+                            </li>
+                            <li class="mb-3">
+                                <strong>Business Hours:</strong><br>
+                                <!-- TODO: Add business hours -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Follow Us</h5>
+                        <div class="d-grid gap-2">
+                            <a href="#" class="btn btn-outline-primary btn-sm">LinkedIn</a>
+                            <a href="#" class="btn btn-outline-info btn-sm">Twitter</a>
+                            <a href="#" class="btn btn-outline-dark btn-sm">GitHub</a>
+                            <!-- TODO: Add YouTube link -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Office Locations -->
+    <div class="bg-light py-5">
+        <div class="container">
+            <h3 class="text-center mb-5">Our Offices</h3>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">San Francisco HQ</h5>
+                            <p class="card-text">
+                                123 Tech Boulevard<br>
+                                San Francisco, CA 94103<br>
+                                +1 (555) 123-4567
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">New York Office</h5>
+                            <!-- TODO: Add office address and phone -->
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">London Office</h5>
+                            <p class="card-text">
+                                456 Innovation Street<br>
+                                London EC2A 4BX, UK<br>
+                                +44 20 1234 5678
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>TechVenture Solutions</h5>
+                    <p>Innovative technology solutions for modern businesses.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">&copy; 2024 TechVenture Solutions. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
